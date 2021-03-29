@@ -1,0 +1,11 @@
+/*// Variables //*/
+$padding : 20px;
+$primaryColor: #97d279;
+$secondaryColor:#ecffe9;
+
+/*// Mixin's //*/
+@mixin textSpacing() {
+  max-width: 700px;
+  text-align: center;
+  padding: $padding;
+}
